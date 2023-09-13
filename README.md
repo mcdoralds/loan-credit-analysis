@@ -1,27 +1,18 @@
 # Project Overview
 
-<i>This is an app that uses Python & supervised machine learning to predict a candidate's "credit risk" (ie chances of getting approved for a loan).</i>
+<i>This is an app that uses Python to predict credit risk. I will build and evaluate several supervised machine learning models to analyze a database of financial data and predict a candidate's chance of loan approval using their portfolio.</i>
 
 ## Background
+Machine learning is the use of statistical algorithms that 'learn' from data patterns to make predicctions. They come in the form of many different models, which are mathematical representations of real life events in the form of data. Results from this project will be interpreted by logistic regression, decision tree, random forest, and support vector algorithms. Model performance will be trained and improved through the use of ensemble and resampling techniques. The use of multiple models is called the ensemble method.
 
-Everyone's in debt, probably. 
+Supervised learning uses labeled data, which means the dataset being fed into the algorithm will have defined data points (e.g. income, age, credit history). 
 
-The number of personal loans in the US is growing exponentially, and the total outstanding balance in unsecured personal loans breaks its own record annually. We all know there's an incoming recession but the bills never stop rolling in. The interest payment hits you and that credit card balance just won't go down. The little spurts of dopamine you get whenever you buy your weekly trinket at the thrift store is one of the few moments of respite from a life of suffering, so decreasing spending isn't really an option. 
-
-One thought that may cross your mind while navigating this economic hellscape is 'can I take out another personal loan?'
-
-## Purpose 
-
-The purpose of this project is to build a personal finance tool that will support users make more informed personal borrowing decisions. With a more robust understanding of how your loan application would look to a financial institution, you'll have a better idea of your approval chances and your overall credit risk in the eyes of the bank.
-
-Are you a perfect candidate with glistening financial health? 
-
-Or are you poor, filthy, and unworthy of existence, let alone ANOTHER personal loan? 
+## Results
 
 ## Resources
 
 Python 3.7 
-- imbalanced-learn
-  - NumPy 1.21.5
-  - SciPy 1.7.3
-  - Scikit-learn
+- imbalanced-learn (https://imbalanced-learn.readthedocs.io/en/stable/)
+- NumPy 1.21.5
+- SciPy 1.7.3
+- Scikit-learn
